@@ -1,0 +1,12 @@
+
+
+___selected pj: WebApi\FwApi
+Add-migration Init1 -context FwCore.DBContext.AppDataDbContext -project FwCore.DBContext
+update-database -context FwCore.DBContext.AppDataDbContext -project FwCore.DBContext
+
+Add-migration Init1 -context FwCore.Identity.AppIdentityDbContext -project FwCore.Identity
+update-database -context FwCore.Identity.AppIdentityDbContext -project FwCore.Identity
+
+
+
+
